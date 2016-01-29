@@ -1,0 +1,314 @@
+/*importamos la fuente de google fonts*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic);
+/*estilos del cuerpo de la pagina*/
+html, body {
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+font-family: 'Open Sans';
+font-size: 13px;
+background: #f5f5f5;
+}
+/*estilos para la primera seccion de la página*/
+header
+{
+background: url(../imagenes/header.jpg) no-repeat center top fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+/*estilos de cabceras*/
+h2
+{
+	margin-top: 24%;
+	text-align: left;
+	color: white;
+	font-weight: normal;
+	font-size: 34px;
+	font-style: italic;
+}
+h3
+{
+	font-size: 28px;
+	font-style: italic;
+	font-weight: 100;
+	color: #585858;
+}
+h4
+{
+	font-size: 37px;
+	font-weight: 100;
+	color: #585858;
+	margin-top: -3%;
+}
+h5
+{
+	color: #ffffff;
+font-size: 14px;
+font-weight: 100;
+}
+/*estilos de la linea horizontal*/
+hr
+{
+	width: 20%;
+	border: 2px solid #4acaff;
+	height: 2px;
+	margin-top: -3%;
+	background-color: #4acaff;
+	margin-bottom: 6%;
+}
+/*estilos de la primera seccion primer div*/
+#cabecera
+{
+	width: 80%;
+	padding-top: 3%;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+}
+/*estilos del input descripcion del trabajo*/
+#cabecera input[type="search"]
+{
+border: 0px;
+width: 86%;
+margin-right: 3%;
+padding: 1%;
+border-bottom: 4px solid #e2e2e2;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+/*estilos del boton de la seccón*/
+button{
+background: #4acaff;
+border: none;
+border-bottom: 3px solid #3baedd;
+border-radius: 2px;
+color: #fff;
+display: inline-block;
+padding: 10px 18px 11px;
+text-decoration: none;
+font-size: 15px;
+font-style: italic;
+font-weight: 100;
+}
+/*estilos del formulario*/
+form
+{
+	text-align: left;
+}
+/*estilos de los campos de selección*/
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+display: inline-block;
+width: 11px;
+height: 11px;
+background: white;
+cursor: pointer;
+border-bottom: 2px solid #e2e2e2;
+margin-right: 2%;
+}
+.texto
+{
+float: left;
+width: 22%;
+margin-right: -11%;
+color: white;
+font-style: italic;
+margin-top: 3%;
+margin-bottom: 27%;
+}
+select
+{
+float: right;
+margin-top: 3%;
+margin-right: 14%;
+padding: 6px;
+border-radius: 3px;
+border: 0px;
+}
+label
+{
+	margin-right: 7%;
+}
+/*estilos para el combobox*/
+select#soflow, select#soflow-color {
+-webkit-appearance: button;
+background-image: url(../imagenes/15xvbd5.png);
+background-position: 102% center;
+background-repeat: no-repeat;
+color: #c7c7c7;
+font-size: inherit;
+overflow: hidden;
+padding: 5px 10px;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 214px;
+border: 0px;
+font-style: italic;
+}
+/*estilos para el logotipo*/
+#logo
+{
+	float: left;
+}
+/*estilos para el menú*/
+nav ul
+{
+	float: right;
+}
+nav ul li
+{
+	list-style: none;
+	float: left;
+	padding: 10px;
+	display: block;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover
+{
+	border-top: 5px solid #4acaff;
+}
+/*fin de estilos del menu*/
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+#intro
+{
+	background: url(../imagenes/intro.jpg);
+width: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+#subscribe
+{
+	background: url(../imagenes/subscribe.jpg);
+width: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+/*estilos para el pie*/
+footer
+{
+background: url(../imagenes/intro.jpg);
+width: 80%;
+margin: 0;
+padding-left: 6%;
+padding-right: 14%;
+padding-top: 5%;
+padding-bottom: 3%;
+overflow-x: hidden;
+}
+.cuerpo
+{
+width: 40%;
+padding-top: 3%;
+margin: 0 auto;
+padding: 0 auto;
+text-align: center;
+color: #585858;
+padding-bottom: 7%;
+
+}
+#redes
+{
+	float: right;
+	margin-top: -3%;
+}
+
+.cuerpo a
+{
+color: #4acaff;
+border: 3px solid #4acaff;
+padding: 3% 5%;
+text-decoration: none;
+top: 19%;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+font-weight: bold;
+}
+.cuerpo p
+{
+margin-bottom: 16%;
+}
+.cuerpo input[type="search"]
+{
+	border-left: 2px solid #4acaff;
+	border-top: 2px solid #4acaff;
+	border-bottom: 2px solid #4acaff;
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-right: 0px;
+	-moz-border-radius-bottomleft: 7px;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	color: #ffffff;
+	padding: 17px;
+	background-color: transparent;
+	float: left;
+	margin-left: 24%;
+	margin-top: 0px;
+}
+.cuerpo input[type="image"]
+{
+	border-right: 2px solid #4acaff;
+	border-top: 2px solid #4acaff;
+	border-bottom: 2px solid #4acaff;
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	border-left: 0px;
+	-moz-border-radius-bottomright: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	color: #ffffff;
+	padding: 17px;
+	background-color: transparent;
+	float: left;
+	margin-left: -1%;
+	width: 20px;
+	margin-top: 0px;
+}
+#subscribe .cuerpo
+{
+	padding-top: 8%;
+	padding-bottom: 12%;
+}
+/*estilos del pie*/
+footer a
+{
+text-decoration: none;
+color: #7a7a7a;
+font-weight: bold;
+}
+footer p
+{
+text-decoration: none;
+color: #7a7a7a;
+font-weight: bold;
+}
+span
+{
+	color: #a6a5a5;
+	font-weight: 100;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>twobytes</title><!--titulo de la web-->
+<meta charset="utf-8" />
+<link rel="stylesheet" href="./css/estilos.css"/><!--importamos el archivo css para separa el codigo de los estilos-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><!--importamos la fuente utilizada-->
+<script type="text/javascript" src="./js/funciones.js"></script><!--importamos los scripts necesarios en nuestra web para separar y limpiar el codigo-->
+
+</head>
+ 
+<body>
+    <header><!--etiqueta de cabecera en html5-->
+       <div id="cabecera"><!--primera sección de la página-->
+        <a href="index.html"><img src="./imagenes/logo.png" id="logo"/></a><!--logo de la página-->
+        <nav><!--etiqueta html5 para el menú de navegación-->
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">ABOUT US</a></li>
+            <li><a href="index.html">JOBS</a></li>
+            <li><a href="index.html">CLIENTS</a></li>
+            <li><a href="index.html">EMPLOYERS</a></li>
+            <li><a href="index.html">CONTACT US</a></li>
+          </ul> 
+        </nav><!--fin del menú de navegación-->
+        <h2>I'm looking for..</h2><!--titulo de la sección-->
+        <form>
+          <input type="search" name="search" placeholder="Enter a Job Description"><!--etiqueta html5 para buscar-->
+          <button  name="boton" type="button"><img  src="imagenes/lupa.png">Search</button ><!--boton utilizado para el envio del formulario, no se le ha dado funcionalidad, por que asi lo decia el email que nos adjunto-->
+          <div class="texto"><!--agrupamos todos los campos de selección-->
+          <input type="checkbox" name="vehicle" class="checkbox-1" value="time">
+          <label for="casilla1"><span></span></label>Full Time</div>
+          <div class="texto">
+          <input type="checkbox" name="vehicle" class="checkbox-1" value="form">
+          <label for="casilla1"><span></span></label>Part Time / Casual / Freelance</div><!--fin de la agrupación-->
+          <select name="location" id="soflow" placeholder="Select your Location"><!--combo para elegir el país-->
+              <option selected>Select your Location</option>
+              <option>Spain</option>
+              <option>England</option>
+            </select>
+        </form>
+       </div>
+    </header><!--fin de la primera sección de la web-->
+    <section><!--etiqueta para agrupar varios articulos-->
+       <article id="intro"><!--segunda sección de la web-->
+        <div class="cuerpo"><!--etiqueta para limitar el ancho de la web-->
+           <h3>We're leaders in</h3><!--etiqueta titulo-->
+           <h4>Creative Digital Recruitment</h4><!--etiqueta titulo-->
+           <hr>
+           <p>Based in Surry Hills, the creative hub of Sydney we are surrounded by creativity
+and that reflects on the type of jobs we recruit for.</p><!--pequeño texto explicativo-->
+            <a href="index.htm">FIND OUT MORE ABOUT US!</a><!--enlace a otra pagina de sobre nosotros-->
+          </div>
+       </article>
+       <article id="subscribe"><!--sección a la que se refiere el email-->
+        <div class="cuerpo">
+           <h5>Subscribe to our Job Seeker Mailing List</h5><!--añadimos un pequeño texto-->
+        <form name="formulario" id="formulario" action="./php/insertar.php" method="get"><!--si todo va bien el formulario se enviará a insertar.php-->
+          <input type="search" name="email" placeholder="Enter Your Email Address" id="email"><!--campo que recibirá el email-->
+          <input type="image" src="imagenes/sobre1.png"><!--ponemos una imagen para hacer el boton enviar-->
+        </form><!--terminamos el formulario-->
+      </div>
+       </article><!--fin de la tercera sección-->
+    </section>
+    <footer><!--etiqueta para el pie en html5-->
+        <a href="mailto:hello@twobytes.com.au"><img src="./imagenes/sobre.png"/>&nbsp;hello@twobytes.com.au</a><!--enviamos un email al enlace-->
+        <p><span>Copyright © 2014 Two Bytes Consulting.</span> Terms & Policies.</p><!--pequeño texto-->
+        <img src="./imagenes/redes.png" id="redes"/><!--iconos de las redes sociales, que no se le han dado función segun el email adjunto-->
+    </footer><!--fin del pie-->
+</body><!--fin del cuerpo de la página-->
+</html><!--fin de la web-->
